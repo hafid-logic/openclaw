@@ -1,0 +1,8 @@
+gateway:
+  bind: lan
+  port: 18789
+  auth:
+    token: "hafid2026"
+  controlUi:
+    allowedOrigins: ["*"]
+    dangerouslyAllowHostHeaderOriginFallback: true

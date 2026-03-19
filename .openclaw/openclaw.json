@@ -1,0 +1,32 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "d7b1c7c7237ac54eedf48dc480f9d8ea631cda21d4df0fa3"
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.3.14",
+    "lastTouchedAt": "2026-03-19T11:09:33.908Z"
+  }
+}
